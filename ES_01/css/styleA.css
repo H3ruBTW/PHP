@@ -1,0 +1,14 @@
+table, tr, th {
+    border-collapse: collapse;
+    border: 2px solid black;
+
+}
+
+th{
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    top: 0px !important
+}

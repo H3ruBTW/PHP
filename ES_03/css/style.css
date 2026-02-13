@@ -1,0 +1,103 @@
+/* Reset CSS */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #333; 
+}
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1% 2%;
+    margin-bottom: 0;
+}
+
+/* DIV Menu */
+.menu {
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    top: -20px;
+    width: 200px;
+    margin-bottom: 0;
+    float: left;
+}
+
+hr {
+    padding: 0;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 3%;
+}
+
+nav ul li {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flexbox;
+}
+
+/* DIV contenuto */
+.content{
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    background-color: white;
+    width: 100%;
+}
+
+/* Div contenitore */ 
+.divs {
+    display: flex;
+}
+
+/* Hover sui Link */
+a:hover {
+    color:royalblue;
+}
+
+a:active {
+    color:royalblue;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    top: -20px;
+}
+
+/* */
+h2 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+p {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol li {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}

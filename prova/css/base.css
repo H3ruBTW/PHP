@@ -1,0 +1,95 @@
+.button {
+    background-color: white;
+    padding: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: lightgrey;
+}
+
+.button:active {
+    background-color: gray;
+}
+
+/* PULSANTE LINK ACCOUNT */
+.link {
+    color: #4039ff !important;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(23, 17, 186) !important;
+}
+
+.link:active {
+    color: #0c0283 !important;
+}
+
+h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* PULSANTE CONFERMA CANCELLAZIONE */
+.rbutton {
+    background-color: rgb(225, 0, 0);
+    padding: 5px;
+    margin-top: 4px;
+    border: 1px solid rgb(50, 50, 50);
+    color: white;
+    border-radius: 5px;
+}
+
+.rbutton:hover {
+    background-color: rgb(190, 0, 0);
+}
+
+.rbutton:active {
+    background-color: rgb(135, 0, 0);
+}
+
+/* BOX Cookies */
+#box{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 30px;
+}
+
+/* Cookie welcome */
+#cookie {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#cookie button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    background: #444; 
+    color: #ddd; 
+    font-weight: bold;
+    border-radius: 5px;
+}
+#cookie button:hover {
+    background: #666; 
+    color: #fff; 
+}
+
+/**/
+#manage_box{
+    display: inline;
+}
+

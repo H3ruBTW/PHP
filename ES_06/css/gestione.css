@@ -1,0 +1,49 @@
+/* DIV dati */
+.dati {
+    position: relative;
+    width: 300px;
+    margin-bottom: 0;
+    float: left;
+}
+
+/* DIV dati2 */
+.dati2{
+    margin-left: 0;
+    padding-bottom: 10px;
+    padding-left: 1%;
+    background-color: white;
+    width: 100%;
+    float: none;
+}
+
+input{
+    width: 250px !important;
+}
+
+select {
+    background-color: white;
+    border: 1px solid black;
+    width: 258px;
+    height: 22px;
+}
+
+select:hover {
+    background-color: lightgrey;
+}
+
+select:active {
+    background-color: gray;
+}
+
+input.rosso {
+    border: 1px solid red;
+    color: red;
+}
+
+input.button{
+    margin-right: 45px;
+}
+
+footer{
+    top: 0px !important;
+}

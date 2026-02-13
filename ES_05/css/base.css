@@ -1,0 +1,53 @@
+#button {
+    background-color: white;
+    padding: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+
+#button:hover {
+    background-color: lightgrey;
+}
+
+#button:active {
+    background-color: gray;
+}
+
+#button2 {
+    background-color: white;
+    padding: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+
+#button2:hover {
+    background-color: lightgrey;
+}
+
+#button2:active {
+    background-color: gray;
+}
+
+#button3 {
+    background-color: white;
+    padding: 5px;
+    margin-top: 4px;
+    border: 1px solid black;
+}
+
+#button3:hover {
+    background-color: lightgrey;
+}
+
+#button2:active {
+    background-color: gray;
+}
+
+h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+

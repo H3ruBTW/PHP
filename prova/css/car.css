@@ -1,0 +1,25 @@
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 80px;
+    height: 80px;
+    display: none;
+}
+
+body.loading {
+    pointer-events: none; /* blocca interazione */
+    overflow: hidden;
+}
+  
+body.loading::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(71, 71, 71, 0.6);
+    z-index: 9998;
+}
